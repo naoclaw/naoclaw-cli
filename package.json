@@ -1,0 +1,19 @@
+{
+  "name": "naoclaw",
+  "version": "0.1.0",
+  "description": "Multi-provider AI agent CLI — Claude, Gemini, MiniMax, OpenRouter in one tool",
+  "bin": {
+    "naoclaw": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsup src/cli.ts --format esm --dts",
+    "dev": "tsx src/cli.ts",
+    "start": "node dist/cli.js"
+  },
+  "keywords": ["ai", "cli", "agent", "llm", "claude", "gemini", "autonomous"],
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  }
+}
