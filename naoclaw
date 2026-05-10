@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+# naoclaw - The Naoclaw CLI tool
+#
+# This is the main entry point for the naoclaw command-line interface.
+
+set -e
+set -o pipefail
+
+main() {
+  echo "Welcome to naoclaw CLI!"
+}
+
+main "$@"
